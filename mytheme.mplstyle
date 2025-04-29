@@ -1,0 +1,42 @@
+# Generic figure tweaks
+figure.figsize: 9, 5 
+figure.facecolor: "F5EFE7"
+figure.dpi: 125  
+savefig.dpi: 300 
+savefig.bbox: tight  
+axes.facecolor: "F5EFE7"
+axes.prop_cycle: cycler("color", ["024CAA", "EC8305", "F2AFEF", "091057", "C499F3", "7360DF", "71BBB2", "497D74", "3599B8", "DFBFBF"])
+axes.spines.top: False
+axes.spines.right: False
+
+
+# Text
+font.size: 11
+font.family: sans-serif
+font.sans-serif: Segoe UI
+axes.titlesize: 20
+axes.titleweight: bold
+axes.titlelocation: center
+axes.labelsize: large
+xtick.labelsize: medium
+ytick.labelsize: medium
+
+
+# Legend
+legend.loc: "upper right"
+legend.numpoints: 3 
+legend.scatterpoints: 3
+
+
+# Grid
+axes.grid: True
+axes.axisbelow: True  
+grid.color: "#DBD3D3"
+grid.linestyle: : 
+grid.linewidth: 1.0
+
+
+# Line chart only
+lines.linewidth: 3
+lines.marker: o
+lines.markersize: 8
